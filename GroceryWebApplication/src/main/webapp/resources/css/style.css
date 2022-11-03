@@ -1,0 +1,26 @@
+.big-banner{
+	background-image:url('/resources/img/groceries.jpg');
+	background-size: cover;
+}
+
+
+.custom-bg{
+	background:grey !important;
+}
+
+.list-group-item.active{
+	color: #fff;
+    background-color:grey !important;
+    border-color:#673ab7 !important;
+}
+
+.list-group-item.active:hover{
+	background: black;
+	border: 1px solid;
+	color:black;
+}
+
+.admin-banner{
+	background:#FFFDD0 !important;
+}
+

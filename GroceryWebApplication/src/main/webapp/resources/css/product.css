@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+h1{
+  color: #000000;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  text-align: center; 
+}
+.custom-bg{
+	background:grey !important;
+}
+
+.list-group-item.active{
+	color: #fff;
+    background-color:grey !important;
+    border-color:#673ab7 !important;
+}
+
+.list-group-item.active:hover{
+	background: black;
+	border: 1px solid;
+	color:black;
+}
+.big-banner{
+	background-image:url('/resources/img/combo.jpg');
+	background-size: cover;
+	text-align: center;
+    
+}

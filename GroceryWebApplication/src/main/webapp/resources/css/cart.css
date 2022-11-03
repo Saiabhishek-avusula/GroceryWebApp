@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+.cart-page{
+	margin: 80px auto;
+}
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+.cart-info{
+	display:flex;
+	flex-wrap:wrap;
+}
+thead{
+	text-align:left;
+	padding:5px;
+	color:grey;
+	font-weight:normal;
+}
+td{
+	padding:10px 5px;
+}
+td input{
+	width:40px;
+	height:30px;
+	padding:5px;
+}
+.list-group-item.active{
+	color: #fff;
+    background-color:grey !important;
+    border-color:#673ab7 !important;
+}
+
+.list-group-item.active:hover{
+	background: black;
+	border: 1px solid;
+	color:black;
+}
+button, input {
+    overflow: visible;
+    background-color: beige;
+}
+td button, select {
+    background-color: #cc5561;
+    border-radius: unset;
+    width:25px;
+}
